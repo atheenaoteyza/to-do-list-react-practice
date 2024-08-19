@@ -35,13 +35,12 @@
   background-color: rgba(255, 192, 203, 0.422);
   border-radius: 1rem;
   padding: 2rem;
-  box-shadow: 8px 8px 0 0 rgba(0, 0, 0, 0.5); /* Solid shadow on bottom and right */
   box-shadow: 8px 8px 0 0 rgba(0, 0, 0, 0.5);
   transition: transform 1s ease, box-shadow 1s ease;
 }
 
 .to-do-container:hover {
-  transform: rotateY(0deg) rotateX(18deg);
+  transform: rotateY(0deg) rotateX(9deg);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
 }
 
